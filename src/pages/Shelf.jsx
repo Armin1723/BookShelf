@@ -18,7 +18,7 @@ const Shelf = () => {
       exit={{ y: 48 }}
       transition={{ ease: "easeOut", duration: 1 }}
     >
-      <p  className="md:text-[7vw] text-[14vw] font-extralight px-8 max-sm:px-14">Personal Shelf</p>
+      <p  className="md:text-[7vw] text-[12vw] font-extralight px-8 max-sm:px-10">Personal Shelf</p>
       <div>
         {books.length === 0 ? (
           <p className="text-2xl text-center">No books added yet</p>
