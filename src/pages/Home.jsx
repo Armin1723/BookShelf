@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { formatSectionBackground } from "../utils/theming";
 import { useSelector } from "react-redux";
+import BookCard from "../Components/BookCard";
 
 const Home = () => {
   const theme = useSelector((state) => state.theme.value);
@@ -103,18 +104,7 @@ const Home = () => {
         <div className="max-h-[40vh] md:max-w-[54vw] max-w-[85vw] overflow-auto">
         {isResultsLoading ? <p className="pl-4 py-2">Loading...</p> : (results &&
           results.map((result, index) => (
-            <div
-              key={index}
-              className={` ${
-                index === 0 && "border-t-0 -mt-2"
-              } max-w-full px-4 py-2 border-b border-gray-500/70 text-left `}
-            >
-              <p className="text-lg font-bold">"{result.title}"</p>
-              <p className="text-sm font-light">Author: &nbsp;
-                {result.author_name ? result.author_name.join(", ") : "Unknown"}
-              </p>
-              <p className="text-sm font-light">Number of Editions: {result.editions.numFound}</p>
-            </div>
+            <BookCard book={result} index={index} />
           )))}
         </div>
       </div>
