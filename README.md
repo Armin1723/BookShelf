@@ -14,7 +14,7 @@ To set up the project locally, follow these steps:
 
 2. Navigate to the project directory:
     ```
-    cd bbokShelf
+    cd bookShelf
     ```
 
 3. Install the dependencies:
