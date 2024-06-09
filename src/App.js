@@ -15,7 +15,7 @@ const App = () => {
       <div
         className={`${formatBackground(
           theme
-        )} container font-bold min-h-screen backdrop-blur-lg w-screen font-[inter]`}
+        )} box min-h-screen backdrop-blur-lg w-scren font-[inter]`}
       >
         <Navbar />
         <Routes>
