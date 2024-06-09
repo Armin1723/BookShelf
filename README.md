@@ -9,7 +9,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
     ```
-    git clone https://github.com/Armin1723/bookShelf.git
+    git clone "https://github.com/Armin1723/bookShelf.git"
     ```
 
 2. Navigate to the project directory:
@@ -31,7 +31,7 @@ In the project directory, you can run the following scripts:
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#Live Link of the Project
+# Live Link of the Project
 
 A live version of the project can b found here. 
 
