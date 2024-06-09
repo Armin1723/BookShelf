@@ -22,17 +22,16 @@ To set up the project locally, follow these steps:
     npm install
     ```
 
-## Available Scripts
-
-In the project directory, you can run the following scripts:
-
-### `npm start`
+4. Run the server
+    ```
+    npm start
+    ```
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 # Live Link of the Project
 
-A live version of the project can b found here. 
+A live version of the project can be found here. 
 
 https://main--shelfofbooks.netlify.app/
